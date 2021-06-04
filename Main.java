@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Main {
+class Main {
 	static Scanner sc = new Scanner(System.in);
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 		int option;
 
 		Atm atms[] = new Atm[5];
@@ -13,7 +13,7 @@ public class Main {
 		atms[4] = new Atm(400,350);
 
 		System.out.println("============================");
-		System.out.println("======= Esparev Bank =======");
+		System.out.println("=  E S P A R E V  B A N K  =");
 		System.out.println("============================");
 		System.out.print("\nCHOOSE AN ATM FROM | 1 - 5 |\n-> ");
 		option = sc.nextInt();

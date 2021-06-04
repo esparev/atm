@@ -1,12 +1,12 @@
-public class Money {
+class Money {
 	private int value;
 	private boolean bill;
 	private String name;
 	private int quantity;
 	private int desiredQuantity;
 	
-	public Money() { }
-	public Money(int value, String  name, boolean bill, int quantity, int desiredQuantity) {
+	Money() { }
+	Money(int value, String  name, boolean bill, int quantity, int desiredQuantity) {
 		this.value = value;
 		this.name = name;
 		this.bill = bill;
@@ -14,38 +14,38 @@ public class Money {
 		this.desiredQuantity = desiredQuantity;
 	}	
 
-	public void setQuantity(int quantity) {
+	void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public int getQuantity() {
+	int getQuantity() {
 		return quantity;
 	}
 
-	public void setValue(int value) {
+	void setValue(int value) {
 		this.value = value;
 	}
-	public int getValue() {
+	int getValue() {
 		return value;
 	}
 
-	public void setBill(boolean bill) {
+	void setBill(boolean bill) {
 		this.bill = bill;
 	}
-	public boolean isBill(){
+	boolean isBill(){
 		return bill;
 	}
 
-	public void setName(String name) {
+	void setName(String name) {
 		this.name = name;
 	}
-	public String getName() {
+	String getName() {
 		return name;
 	}
 
-	public void setDesiredQuantity(int desiredQuantity) {
+	void setDesiredQuantity(int desiredQuantity) {
 		this.desiredQuantity = desiredQuantity;
 	}
-	public int getDesiredQuantity() {
+	int getDesiredQuantity() {
 		return desiredQuantity;
 	}
 }

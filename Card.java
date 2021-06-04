@@ -1,4 +1,4 @@
-public class Card {
+class Card {
 	private int monthExpiration;
 	private int yearExpiration;
 	private String operator;
@@ -7,8 +7,8 @@ public class Card {
 	private Account account = new Account();
 	private String cardNumber;
 	
-	public Card() { }
-	public Card(int monthExpiration, int yearExpiration, String operator, boolean debit, int cvv, Account account, String cardNumber) {
+	Card() { }
+	Card(int monthExpiration, int yearExpiration, String operator, boolean debit, int cvv, Account account, String cardNumber) {
 		this.monthExpiration = monthExpiration;
 		this.yearExpiration = yearExpiration;
 		this.operator = operator;
@@ -18,52 +18,52 @@ public class Card {
 		this.cardNumber = cardNumber;
 	}
 
-	public void setMonthExpiration(int monthExpiration) {
+	void setMonthExpiration(int monthExpiration) {
 		this.monthExpiration = monthExpiration;
 	}
-	public int getMonthExpiration() {
+	int getMonthExpiration() {
 		return monthExpiration;
 	}
 
-	public void setYearExpiration(int yearExpiration) {
+	void setYearExpiration(int yearExpiration) {
 		this.yearExpiration = yearExpiration;
 	}
-	public int getYearExpiration() {
+	int getYearExpiration() {
 		return yearExpiration;
 	}
 
-	public void setOperator(String operator) {
+	void setOperator(String operator) {
 		this.operator = operator;
 	}
-	public String getOperator() {
+	String getOperator() {
 		return operator;
 	}
 
-	public void setDebit(boolean debit) {
+	void setDebit(boolean debit) {
 		this.debit = debit;
 	}
-	public boolean getDebit() {
+	boolean getDebit() {
 		return debit;
 	}
 
-	public void setCvv(int cvv) {
+	void setCvv(int cvv) {
 		this.cvv = cvv;
 	}
-	public int getCvv() {
+	int getCvv() {
 		return cvv;
 	}
 
-	public void setAccount(Account account) {
+	void setAccount(Account account) {
 		this.account = account;
 	}
-	public String getAccount() {
+	String getAccount() {
 		return account.getAccountFullName();
 	}
 	
-	public void setCardNumber(String cardNumber) {
+	void setCardNumber(String cardNumber) {
 		this.cardNumber = cardNumber;
 	}
-	public String getCardNumber() {
+	String getCardNumber() {
 		return cardNumber;
 	}
 }

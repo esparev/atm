@@ -1,4 +1,4 @@
-public class Account {
+class Account {
 	private String accountFirstName;
 	private String accountLastName;
 	private String phoneNumber;
@@ -6,8 +6,8 @@ public class Account {
 	private int averageSalary;
 	private int maxCredit;
 
-	public Account() {	}
-	public Account(String accountFirstName, String accountLastName, String address, int averageSalary, int maxCredit, String phoneNumber) {
+	Account() {	}
+	Account(String accountFirstName, String accountLastName, String address, int averageSalary, int maxCredit, String phoneNumber) {
 		this.accountFirstName = accountFirstName;
 		this.accountLastName = accountLastName;
 		this.address = address;
@@ -16,49 +16,49 @@ public class Account {
 		this.phoneNumber = phoneNumber;
 	}
 	
-	public void setAccountFirstName(String accountFirstName) {
+	void setAccountFirstName(String accountFirstName) {
 		this.accountFirstName = accountFirstName;
 	}
-	public String getAccountFirstName() {
+	String getAccountFirstName() {
 		return accountFirstName;
 	}
 
-	public void setAccountLastName(String accountLastName) {
+	void setAccountLastName(String accountLastName) {
 		this.accountLastName = accountLastName;
 	}
-	public String getAccountLastName() {
+	String getAccountLastName() {
 		return accountLastName;
 	}
 
-	public String getAccountFullName() {
+	String getAccountFullName() {
 		return accountFirstName + accountLastName;
 	}
 
-	public void setPhoneNumber(String phoneNumber) {
+	void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-	public String getPhoneNumber() {
+	String getPhoneNumber() {
 		return phoneNumber;
 	}
 
-	public void setAddress(String address) {
+	void setAddress(String address) {
 		this.address = address;
 	}
-	public String getAddress() {
+	String getAddress() {
 		return address;
 	}
 
-	public void setAverageSalary(int averageSalary) {
+	void setAverageSalary(int averageSalary) {
 		this.averageSalary = averageSalary;
 	}
-	public int getAverageSalary() {
+	int getAverageSalary() {
 		return averageSalary;
 	}
 
-	public void setMaxCredit(int maxCredit) {
+	void setMaxCredit(int maxCredit) {
 		this.maxCredit = maxCredit;
 	}
-	public int getMaxCredit() {
+	int getMaxCredit() {
 		return maxCredit;
 	}
 }
