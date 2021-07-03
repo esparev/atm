@@ -2,15 +2,14 @@
 
 Things you can do:
 
-- Choose one between five ATMs
-
 - See the current amount of bills and coins that the chosen ATM has
-
-- Supply bills and/or coins to the chosen ATM of any desired denomination
-
+- Deposit bills and coins to the ATM of any desired denomination
 - Read bank cards of the registered accounts that the bank has 
 
-> Verifies if the card is expired or not
+Things that the ATM does automatically:
+
+- Verifies if the card is expired or not and only shows the last four digits of the number when reading a card number
+- It can now assign automatically the card network depending on the first digit of the card number
 
 ---
 
@@ -26,8 +25,8 @@ Phone Number: 3334445556 <br>
 
 #### 💳 Credit Card
 
-Card Number: 1111111111111111 <br>
-Operator: Visa <br>
+Card Number: 4444444444444444 <br>
+Card Network: Visa <br>
 CVV: 333 <br>
 Month Expiration: 10 <br>
 Year Expiration: 2020 <br>
@@ -44,8 +43,8 @@ Phone Number: 5566778899 <br>
 
 #### 💳 Debit Card
 
-Card Number: 0000000000000000 <br>
-Operator: Mastercard <br>
+Card Number: 3888888888888888 <br>
+Operator: American Express <br>
 CVV: 911 <br>
 Month Expiration: 3 <br>
 Year Expiration: 2021 <br>
@@ -62,8 +61,8 @@ Phone Number: 0011223344 <br>
 
 #### 💳 Credit Card
 
-Card Number: 3333333333333333 <br>
-Operator: American Express <br>
+Card Number: 5222222222222222 <br>
+Operator: Mastercard <br>
 CVV: 666 <br>
 Month Expiration: 2 <br>
 Year Expiration: 2019 <br>
@@ -80,7 +79,7 @@ Phone Number: 4433221100 <br>
 
 #### 💳 Credit Card
 
-Card Number: 9999999999999999 <br>
+Card Number: 4666666666666666 <br>
 Operator: Visa <br>
 CVV: 164 <br>
 Month Expiration: 6 <br>
@@ -98,8 +97,8 @@ Phone Number: 9988776655 <br>
 
 #### 💳 Credit Card
 
-Card Number: 7777777777777777 <br>
-Operator: American Express <br>
+Card Number: 6333333333333333 <br>
+Operator: Discover <br>
 CVV: 566 <br>
 Month Expiration: 12 <br>
 Year Expiration: 2019 <br>
