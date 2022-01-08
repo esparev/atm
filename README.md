@@ -1,5 +1,9 @@
 # Bank ATM
 
+ATM program that lets you see the current amount of bills and coins that the ATM has. Deposit bills and coins to the ATM of any desired denomination. Read bank cards of the registered accounts that the bank has. 
+
+---
+
 Things you can do:
 
 - See the current amount of bills and coins that the chosen ATM has
